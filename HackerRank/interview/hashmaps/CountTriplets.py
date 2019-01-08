@@ -5,20 +5,20 @@ import os
 import random
 import re
 import sys
-
-tripples_dict = dict()
+from collections import defaultdict
 
 
 # Complete the countTriplets function below.
+# https://www.hackerrank.com/challenges/count-triplets-1/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=dictionaries-hashmaps
 def countTriplets(arr, r):
-	# arr = sorted(arr)
-	lena = len(arr)
 	count = 0
-	for i in range(lena):
-		for j in range(i + 1, lena):
-			if arr[j] // arr[i] == r:
-				for k in range(j + 1, lena):
-					count += 1 if arr[k] // arr[j] == r else 0
+	t2 = defaultdict(int)
+	t3 = defaultdict(int)
+	for x in arr:
+		count += t3[x]
+		t3[x * r] += t2[x]
+		t2[x * r] += 1
+
 	return count
 
 
@@ -28,7 +28,11 @@ if __name__ == '__main__':
 	r = int(nr[1])
 	arr = list(map(int, input().rstrip().split()))
 	print(countTriplets(arr, r))
-
+	#
 	# print(countTriplets([1, 2, 2, 4], 2))
 	# print(countTriplets([1, 3, 9, 9, 27, 81], 3))
 	# print(countTriplets([1, 5, 5, 25, 125], 5))
+	# print(countTriplets([1, 1, 1, 1, 1], 5))
+	# print(countTriplets([1, 1, 1, 1, 1], 1))
+
+	# Fail 2, 3, 6, 10, 11
