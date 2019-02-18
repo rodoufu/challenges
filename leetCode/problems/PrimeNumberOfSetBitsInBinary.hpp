@@ -16,22 +16,11 @@ public:
         return true;
     }
     
-    inline int numBits(int x) {
-        int cont = 0;
-        while (x) {
-            if (x & 1) {
-                ++cont;
-            }
-            x >>= 1;
-        }
-        return cont;
-    }
-
     int countPrimeSetBits(int L, int R) {
         int nb, count = 0;
         for (int i = L; i <= R; ++i) {
             //printf("%d:[%d]->%d\n", i, numBits(i), isPrime(numBits(i)));
-            nb = numBits(i);
+            nb = __builtin_popcount(i);
             count += isPrime(nb) ? 1 : 0;
         }
         return count;
