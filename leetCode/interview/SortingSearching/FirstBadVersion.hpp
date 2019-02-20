@@ -1,3 +1,4 @@
+//https://leetcode.com/problems/first-bad-version/
 // Forward declaration of isBadVersion API.
 bool isBadVersion(int version);
 
