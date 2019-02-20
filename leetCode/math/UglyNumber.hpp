@@ -1,3 +1,4 @@
+//https://leetcode.com/problems/ugly-number/
 #define WHILE_MUL(X, M) while((X) % (M) == 0) (X) /= (M)
 class Solution {
 public:
