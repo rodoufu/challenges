@@ -1,3 +1,4 @@
+//https://leetcode.com/problems/unique-email-addresses/
 class Solution {
 public:
     int numUniqueEmails(vector<string>& emails) {
