@@ -1,3 +1,4 @@
+//https://leetcode.com/problems/image-smoother/
 class Solution {
 public:
     inline int surrounding(const vector<vector<int>>& M, unsigned i, unsigned j) {
