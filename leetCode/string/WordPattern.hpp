@@ -1,3 +1,4 @@
+//https://leetcode.com/problems/word-pattern/
 class Solution {
 public:
     vector<string> split(string str, string separator) {
