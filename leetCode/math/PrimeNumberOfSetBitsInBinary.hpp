@@ -1,3 +1,4 @@
+//https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/
 class Solution {
 public:
     inline bool isPrime(int x) {
