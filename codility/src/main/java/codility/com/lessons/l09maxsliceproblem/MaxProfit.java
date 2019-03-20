@@ -2,7 +2,7 @@ package codility.com.lessons.l09maxsliceproblem;
 
 /**
  * 100%
- * @author 08115341622
+ * https://app.codility.com/programmers/lessons/9-maximum_slice_problem/max_profit/
  */
 public class MaxProfit {
 	public int solution(int[] A) {
