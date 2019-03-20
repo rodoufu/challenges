@@ -7,7 +7,7 @@ import java.util.Set;
 
 /**
  * 100 + 33 = 69 
- * @author rodolfo
+ * https://app.codility.com/programmers/lessons/12-euclidean_algorithm/common_prime_divisors/
  */
 public class CommonPrimeDivisors {
 	private static Map<Long, Boolean> primeCache = new HashMap<>();
