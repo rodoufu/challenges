@@ -4,7 +4,7 @@ import java.util.Stack;
 
 /**
  * 7%
- * @author 08115341622
+ * https://app.codility.com/programmers/lessons/7-stacks_and_queues/stone_wall/
  */
 public class StoneWall {
 	public int solution(int[] H) {
