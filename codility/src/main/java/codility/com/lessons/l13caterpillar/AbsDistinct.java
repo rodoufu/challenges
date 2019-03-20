@@ -5,7 +5,7 @@ import java.util.Set;
 
 /**
  * 100%
- * @author rodolfo
+ * https://app.codility.com/programmers/lessons/15-caterpillar_method/abs_distinct/
  */
 public class AbsDistinct {
 	public int solution(int[] A) {
