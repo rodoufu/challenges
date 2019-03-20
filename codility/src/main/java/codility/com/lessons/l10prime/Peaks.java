@@ -6,8 +6,8 @@ import java.util.List;
 import java.util.Set;
 
 /**
- * 100 + 20 = 63
- * @author rodolfo
+ * 90%
+ * https://app.codility.com/programmers/lessons/10-prime_and_composite_numbers/peaks/
  */
 public class Peaks {
 	public int solution(int[] A) {
