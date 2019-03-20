@@ -5,7 +5,7 @@ import java.util.Set;
 
 /**
  * Not solved
- * @author rodolfo
+ * https://app.codility.com/programmers/lessons/15-caterpillar_method/count_distinct_slices/
  */
 public class CountDistinctSlices {
 	public int solution(int M, int[] A) {
