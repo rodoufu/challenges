@@ -1,6 +1,6 @@
 package codility.com.lessons.l10prime;
 
-
+// https://app.codility.com/programmers/lessons/10-prime_and_composite_numbers/min_perimeter_rectangle/
 public class MinPerimeterRectangle {
 	public int solution(int N) {
 		int min = Integer.MAX_VALUE;
