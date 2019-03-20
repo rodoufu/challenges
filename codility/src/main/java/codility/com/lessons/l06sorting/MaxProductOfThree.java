@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * 100%
- * @author 08115341622
+ * https://app.codility.com/programmers/lessons/6-sorting/max_product_of_three/
  */
 public class MaxProductOfThree {
 	public int solution(int[] A) {
