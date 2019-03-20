@@ -2,7 +2,7 @@ package codility.com.lessons.l99future;
 
 /**
  * 100% 
- * @author 08115341622
+ * https://app.codility.com/programmers/lessons/99-future_training/str_symmetry_point/
  */
 public class StrSymmetryPoint {
 	public int solution(String S) {
