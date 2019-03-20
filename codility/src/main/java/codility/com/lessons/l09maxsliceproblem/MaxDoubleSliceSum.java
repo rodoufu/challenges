@@ -2,6 +2,7 @@ package codility.com.lessons.l09maxsliceproblem;
 
 import java.util.Arrays;
 
+//https://app.codility.com/programmers/lessons/9-maximum_slice_problem/max_double_slice_sum/
 public class MaxDoubleSliceSum {
 	public int solution(int[] A) {
 		long menores[] = new long[4];
