@@ -8,7 +8,7 @@ import java.util.List;
 
 /**
  * 100 + 50
- * @author 08115341622
+ * https://app.codility.com/programmers/lessons/7-stacks_and_queues/fish/
  */
 public class Fish {
 	public int solution(int[] A, int[] B) {
