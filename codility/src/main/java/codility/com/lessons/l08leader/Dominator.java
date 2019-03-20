@@ -7,7 +7,7 @@ import java.util.Map;
 
 /**
  * 100
- * @author 08115341622
+ * https://app.codility.com/programmers/lessons/8-leader/dominator/
  */
 public class Dominator {
 	public int solution(int[] A) {
