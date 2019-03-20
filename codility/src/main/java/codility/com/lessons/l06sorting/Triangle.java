@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * 100%
- * @author 08115341622
+ * https://app.codility.com/programmers/lessons/6-sorting/triangle/
  */
 public class Triangle {
 	public int solution(int[] A) {
