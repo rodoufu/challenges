@@ -4,7 +4,7 @@ import java.util.Stack;
 
 /**
  * 100%
- * @author 08115341622
+ * https://app.codility.com/programmers/lessons/7-stacks_and_queues/brackets/
  */
 public class Brackets {
 	public int solution(String S) {
