@@ -2,7 +2,8 @@ package codility.com.lessons.l05prefixsums;
 
 
 /**
- * 
+ * https://app.codility.com/programmers/lessons/5-prefix_sums/min_avg_two_slice/
+ * 0%
  * @author 08115341622
  */
 public class MinAvgTwoSlice {
