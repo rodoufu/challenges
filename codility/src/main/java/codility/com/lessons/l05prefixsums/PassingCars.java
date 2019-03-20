@@ -1,6 +1,7 @@
 package codility.com.lessons.l05prefixsums;
 
 /**
+ * https://app.codility.com/programmers/lessons/5-prefix_sums/passing_cars/
  * 100%
  * @author 08115341622
  */
