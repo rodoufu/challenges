@@ -2,6 +2,7 @@ package codility.com.lessons.l12euclideanalgorithm;
 
 /**
  * 100%
+ * https://app.codility.com/programmers/lessons/12-euclidean_algorithm/chocolates_by_numbers/
  */
 public class ChocolatesByNumbers {
 	public int solution(int N, int M) {
