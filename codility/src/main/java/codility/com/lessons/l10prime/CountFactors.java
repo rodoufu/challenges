@@ -1,6 +1,6 @@
 package codility.com.lessons.l10prime;
 
-
+// https://app.codility.com/programmers/lessons/10-prime_and_composite_numbers/count_factors/
 public class CountFactors {
 	public int solution(int N) {
 		int contar = 0;
