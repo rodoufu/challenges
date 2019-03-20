@@ -1,6 +1,7 @@
 package codility.com.lessons.l03timecomplexity;
 
 /**
+ * https://app.codility.com/programmers/lessons/3-time_complexity/tape_equilibrium/
  * 100%
  * @author 08115341622
  */
