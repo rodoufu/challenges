@@ -1,5 +1,7 @@
 package codility.com.lessons.l05prefixsums;
 
+// https://app.codility.com/programmers/lessons/5-prefix_sums/genomic_range_query/
+// 0%
 public class GenomicRangeQuery {
 	public int[] solution(String S, int[] P, int[] Q) {
 		// used jagged array to hold the prefix sums of each A, C and G genoms
