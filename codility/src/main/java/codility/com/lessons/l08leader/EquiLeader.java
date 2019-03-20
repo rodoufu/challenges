@@ -5,6 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+//https://app.codility.com/programmers/lessons/8-leader/equi_leader/
 public class EquiLeader {
 	public static class Leader {
 		public int value;
