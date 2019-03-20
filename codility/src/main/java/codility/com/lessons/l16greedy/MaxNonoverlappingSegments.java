@@ -2,7 +2,7 @@ package codility.com.lessons.l16greedy;
 
 /**
  * 100% 
- * @author 08115341622
+ * https://app.codility.com/programmers/lessons/16-greedy_algorithms/max_nonoverlapping_segments/
  */
 public class MaxNonoverlappingSegments {
 	public int solution(int[] A, int[] B) {
