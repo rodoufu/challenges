@@ -1,3 +1,4 @@
+# solved
 def mult_mod(a: int, b: int, n: int) -> int:
 	return a % n * (b % n) % n
 
