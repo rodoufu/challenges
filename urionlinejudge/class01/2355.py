@@ -1,3 +1,4 @@
+# solved
 while True:
 	minutes = int(input().replace('\n', ''))
 	if minutes == 0:
