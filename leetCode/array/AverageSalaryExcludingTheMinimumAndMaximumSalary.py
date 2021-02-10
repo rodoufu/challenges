@@ -12,4 +12,5 @@ class Solution:
             sum_salary += sal
         
         sum_salary -= min_salary + max_salary
+
         return sum_salary / (len(salary) - 2)
