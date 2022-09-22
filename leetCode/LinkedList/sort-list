@@ -1,0 +1,26 @@
+// https://leetcode.com/problems/sort-list/
+/**
+ * Definition for singly-linked list.
+ * type ListNode struct {
+ *     Val int
+ *     Next *ListNode
+ * }
+ */
+func sortList(head *ListNode) *ListNode {
+    if head == nil || head.Next == nil {
+        return head
+    }
+    var temp[]int
+    for it := head; it != nil; it = it.Next {
+        temp = append(temp, it.Val)
+    }
+    sort.Ints(temp)
+    
+    it := head
+    for _, val := range temp {
+        it.Val = val
+        it = it.Next
+    }
+    
+    return head
+}
